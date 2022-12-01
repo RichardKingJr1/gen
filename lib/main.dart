@@ -14,6 +14,5 @@ void main() {
   getIt.registerSingleton(MovieController(fetchMovies: FetchMoviesImp(moviesRepository: MoviesRepositoryImp(moviesDatasource: MoviesDatasourceImp(client: Client())))));
 
   runApp(const MyApp());
-    //runApp(MyApp());
 }
 

@@ -28,7 +28,7 @@ class _FilmesHomeState extends State<FilmesHome> {
         return Scaffold(
           body: Container(
             child: Center(
-              child: Image.asset('images/logo.png', height: 50,)
+              child: Image.asset('assets/images/logo.png', height: 50,)
             ),
           ),
         );
@@ -44,14 +44,14 @@ class _FilmesHomeState extends State<FilmesHome> {
             centerTitle: true,
             title:  Padding(
               padding: EdgeInsets.only(top: 5),
-              child: Image.asset('images/logo2.png', height: 30,),
+              child: Image.asset('assets/images/logo2.png', height: 30,),
             ),
             leading: IconButton(onPressed: () {}, icon: Icon(Icons.menu, size: 35,)),
           ),
           body: Container(
             decoration: const BoxDecoration(
               image: DecorationImage(
-                image: AssetImage('images/background.png'),
+                image: AssetImage('assets/images/background.png'),
                 fit: BoxFit.cover
               ),
             ),
